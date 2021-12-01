@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="logged.html" method="post">
+
+        <label>USer Name :</label>
+        <input type="text" name="User_Name" id="username">
+        <br><br>
+        <label>password :</label>
+        <input type="password" name="Pass" id="pass">
+        <br><br>
+        <label>remeber me :</label>
+        <input type="checkbox" name="remember" id="remb" >
+        <br><br>
+        <input type="submit" onclick="save()">
+    </form>
+    
+    <div id="div1"></div>
+    <br>
+    <button onclick="getData()">GET DATA</button>
+    
+    <select id="div2" onchange="print(this.value)" multiple size="2"></select>
+    <div id="div4"></div>
+<br><br>
+    
+    <button onclick="getData1()">GET DATA</button>
+    <div id="div3"></div>
+    <script src="lab5.js">
+        
+    </script>
+    <script src="lab51.js">
+        
+    </script>
+</body>
+
+</html>

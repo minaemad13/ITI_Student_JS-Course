@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1 id="h1"></h1>
+
+    <button onclick="var num1=prompt('enter number')
+    var num2=prompt('enter number'); calc(num1,num2)">enter 2 numbers</button>
+    <button onclick="var mathsExp=prompt('enter math expression'); mathsexp(mathsExp);">button</button>
+    <table style="border: 2 solid black;">
+        <tr style="border: 2 solid black;">
+            <td id="td1" style="border: 2 solid black;">name</td>
+            <td id="td2"></td>
+        </tr>
+        <tr style="border: 2 solid black;">
+            <td id="td3">birth</td>
+            <td id="td4"></td>
+        </tr>
+        <tr style="border: 2 solid black;">
+            <td id="td5">age</td>
+            <td id="td6"></td>
+        </tr>
+    </table>
+    <button
+        onclick="var Name=prompt('Enter Your Name')
+    var birthYear=prompt('Enter birth year')
+    birthYear=parseInt(birthYear) ;valid(Name,birthYear); document.getElementById('td2').innerHTML=Name ;document.getElementById('td4').innerHTML=birthYear ; document.getElementById('td6').innerHTML=calage(birthYear);">
+        define</button>
+
+
+
+
+
+
+    <script src="js1.js"></script>
+
+</body>
+
+</html>

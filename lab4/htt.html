@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h2 id="d2"></h2>
+
+    <script>
+	        var qString=location.search;
+			console.log(qString)
+			var url=qString.substr(10,100);
+            var username= url.split("&")[0]
+			var Email= url.split("&")[1]
+            var Email1= Email.substr(6,100)
+           
+            var City= url.split("&")[2]
+            var Ciry1= City.substr(5,100)
+            
+             var pass= url.split("&")[3]
+             var pass1= pass.substr(5,100)
+            
+             var Email= url.split("&")[1]
+             var Email1= Email.substr(6,100)
+
+            document.getElementById("d2").innerHTML="Thank you,"+username+" for registering in our website"
+    </script>
+</body>
+</html>

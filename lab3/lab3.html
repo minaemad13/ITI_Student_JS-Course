@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onunload="show()">
+    <h1 id="h1"></h1>
+    <button onclick="setint()">start clock</button>
+
+    <button onclick="opeen()"> open</button>
+
+    <button onclick="clos()"> Close</button>
+    <br><br>
+    <form action="htt.html" method="get">
+        <label>User Name :</label>
+        <input type="text" name="User_Name" id="US" value="Enetr User Name">
+        <br>
+        <label>Password :</label>
+        <input type="password" name="Password" id="PS">
+        <br>
+        <input type="submit">
+    </form>
+    <br>
+    <button onclick="val(FullNAme,Email)"> Get info</button>
+    <h3 id="h3"></h3>
+    <input type="text" value="No Numbers" onkeydown="preventA(event);">
+    
+    <h2 id="days"></h2>
+    <h2 id="hours"></h2>
+    <h2 id="mins"></h2>
+    <h2 id="secs"></h2>
+    <h2 id="end"></h2>
+
+
+
+    <script type="text/javascript" src="lab3.js"></script>
+</body>
+
+</html>
